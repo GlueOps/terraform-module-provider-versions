@@ -6,12 +6,12 @@ terraform {
     }
     cloudflare = {
       source  = "cloudflare/cloudflare"
-      version = "4.5.0"
+      version = "4.7.1"
     }
 
     google = {
       source  = "hashicorp/google"
-      version = "4.64.0"
+      version = "4.69.1"
     }
     http = {
       source  = "hashicorp/http"
@@ -20,12 +20,12 @@ terraform {
 
     vault = {
       source  = "hashicorp/vault"
-      version = "3.15.2"
+      version = "3.16.0"
     }
 
     opsgenie = {
       source  = "opsgenie/opsgenie"
-      version = "0.6.20"
+      version = "0.6.24"
     }
 
     vaultoperator = {
@@ -35,7 +35,7 @@ terraform {
 
     github = {
       source  = "integrations/github"
-      version = "5.25.0"
+      version = "5.26.0"
     }
     tfe = {
       source  = "hashicorp/tfe"
