@@ -34,7 +34,7 @@ terraform {
     }
 
     github = {
-      source  = "github/integrations/github"
+      source  = "integrations/github"
       version = "5.25.0"
     }
     tfe = {
