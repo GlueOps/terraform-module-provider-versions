@@ -1,5 +1,6 @@
 terraform {
   required_providers {
+    
     aws = {
       source  = "hashicorp/aws"
       version = "5.3.0"
@@ -51,7 +52,12 @@ terraform {
       source  = "hashicorp/time"
       version = "0.9.1"
     }
-
+    
+    local = {
+      source = "hashicorp/local"
+      version = "2.4.0"
+    }
+    
   }
 
 }
