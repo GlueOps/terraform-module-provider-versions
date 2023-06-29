@@ -3,30 +3,30 @@ terraform {
     
     aws = {
       source  = "hashicorp/aws"
-      version = "5.3.0"
+      version = "5.5.0"
     }
     cloudflare = {
       source  = "cloudflare/cloudflare"
-      version = "4.7.1"
+      version = "4.9.0"
     }
 
     google = {
       source  = "hashicorp/google"
-      version = "4.69.1"
+      version = "4.71.0"
     }
     http = {
       source  = "hashicorp/http"
-      version = "3.3.0"
+      version = "3.4.0"
     }
 
     vault = {
       source  = "hashicorp/vault"
-      version = "3.16.0"
+      version = "3.17.0"
     }
 
     opsgenie = {
       source  = "opsgenie/opsgenie"
-      version = "0.6.24"
+      version = "0.6.25"
     }
 
     vaultoperator = {
@@ -36,7 +36,7 @@ terraform {
 
     github = {
       source  = "integrations/github"
-      version = "5.26.0"
+      version = "5.29.0"
     }
     tfe = {
       source  = "hashicorp/tfe"
