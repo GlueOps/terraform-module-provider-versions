@@ -12,7 +12,7 @@ terraform {
 
     google = {
       source  = "hashicorp/google"
-      version = "4.76.0"
+      version = "4.78.0"
     }
     http = {
       source  = "hashicorp/http"
