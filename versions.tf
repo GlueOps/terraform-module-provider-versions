@@ -3,7 +3,7 @@ terraform {
     
     aws = {
       source  = "hashicorp/aws"
-      version = "5.12.0"
+      version = "5.13.1"
     }
     cloudflare = {
       source  = "cloudflare/cloudflare"
@@ -12,7 +12,7 @@ terraform {
 
     google = {
       source  = "hashicorp/google"
-      version = "4.78.0"
+      version = "4.79.0"
     }
     http = {
       source  = "hashicorp/http"
