@@ -12,7 +12,7 @@ terraform {
 
     google = {
       source  = "hashicorp/google"
-      version = "4.81.0"
+      version = "4.82.0"
     }
     http = {
       source  = "hashicorp/http"
@@ -21,7 +21,7 @@ terraform {
 
     vault = {
       source  = "hashicorp/vault"
-      version = "3.20.0"
+      version = "3.20.1"
     }
 
     opsgenie = {
