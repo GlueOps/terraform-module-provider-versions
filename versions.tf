@@ -3,11 +3,11 @@ terraform {
     
     aws = {
       source  = "hashicorp/aws"
-      version = "5.14.0"
+      version = "5.17.0"
     }
     cloudflare = {
       source  = "cloudflare/cloudflare"
-      version = "4.13.0"
+      version = "4.14.0"
     }
 
     google = {
@@ -29,14 +29,9 @@ terraform {
       version = "0.6.29"
     }
 
-    vaultoperator = {
-      source  = "rickardgranberg/vaultoperator"
-      version = "0.1.10"
-    }
-
     github = {
       source  = "integrations/github"
-      version = "5.32.0"
+      version = "5.37.0"
     }
     tfe = {
       source  = "hashicorp/tfe"
