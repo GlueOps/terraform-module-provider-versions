@@ -3,7 +3,7 @@ terraform {
     
     aws = {
       source  = "hashicorp/aws"
-      version = "5.18.0"
+      version = "5.17.0"
     }
     cloudflare = {
       source  = "cloudflare/cloudflare"
