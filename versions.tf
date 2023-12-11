@@ -3,7 +3,7 @@ terraform {
     
     aws = {
       source  = "hashicorp/aws"
-      version = "5.30.0"
+      version = "5.24.0"
     }
 
     github = {
@@ -28,7 +28,7 @@ terraform {
 
     opsgenie = {
       source  = "opsgenie/opsgenie"
-      version = "0.6.34"
+      version = "0.6.32"
     }
 
     random = {
