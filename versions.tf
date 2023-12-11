@@ -33,7 +33,7 @@ terraform {
 
     random = {
       source  = "hashicorp/random"
-      version = "3.5.1"
+      version = "3.6.0"
     }
 
     tfe = {
@@ -43,17 +43,17 @@ terraform {
 
     time = {
       source  = "hashicorp/time"
-      version = "0.9.1"
+      version = "0.10.0"
     }
         
     tls = {
       source = "hashicorp/tls"
-      version = "4.0.4"
+      version = "4.0.5"
     }
 
     vault = {
       source  = "hashicorp/vault"
-      version = "3.22.0"
+      version = "3.23.0"
     }
     
   }
