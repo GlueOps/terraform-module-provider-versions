@@ -3,32 +3,32 @@ terraform {
     
     aws = {
       source  = "hashicorp/aws"
-      version = "5.24.0"
+      version = "5.35.0"
     }
 
     github = {
       source  = "integrations/github"
-      version = "5.42.0"
+      version = "5.45.0"
     }
 
     google = {
       source  = "hashicorp/google"
-      version = "5.11.0"
+      version = "5.14.0"
     }
 
     http = {
       source  = "hashicorp/http"
-      version = "3.4.0"
+      version = "3.4.1"
     }
 
     local = {
       source = "hashicorp/local"
-      version = "2.4.0"
+      version = "2.4.1"
     }
 
     opsgenie = {
       source  = "opsgenie/opsgenie"
-      version = "0.6.32"
+      version = "0.6.35"
     }
 
     random = {
@@ -53,7 +53,7 @@ terraform {
 
     vault = {
       source  = "hashicorp/vault"
-      version = "3.23.0"
+      version = "3.24.0"
     }
 
     kubernetes = {
