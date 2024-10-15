@@ -28,7 +28,7 @@ terraform {
 
     opsgenie = {
       source  = "opsgenie/opsgenie"
-      version = "0.6.35"
+      version = "0.6.37"
     }
 
     random = {
