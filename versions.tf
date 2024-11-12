@@ -38,7 +38,7 @@ terraform {
 
     tfe = {
       source  = "hashicorp/tfe"
-      version = "0.38.0"
+      version = "0.60.0"
     }
 
     time = {
