@@ -53,7 +53,7 @@ terraform {
 
     vault = {
       source  = "hashicorp/vault"
-      version = "3.24.0"
+      version = "4.8.0"
     }
 
     kubernetes = {
