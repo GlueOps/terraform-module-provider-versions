@@ -13,7 +13,7 @@ terraform {
 
     google = {
       source  = "hashicorp/google"
-      version = "6.49.3"
+      version = "7.3.0"
     }
 
     http = {
