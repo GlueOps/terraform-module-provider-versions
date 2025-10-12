@@ -11,11 +11,6 @@ terraform {
       version = "6.6.0"
     }
 
-    google = {
-      source  = "hashicorp/google"
-      version = "6.50.0"
-    }
-
     http = {
       source  = "hashicorp/http"
       version = "3.5.0"
@@ -26,19 +21,9 @@ terraform {
       version = "2.5.3"
     }
 
-    opsgenie = {
-      source  = "opsgenie/opsgenie"
-      version = "0.6.37"
-    }
-
     random = {
       source  = "hashicorp/random"
       version = "3.7.2"
-    }
-
-    tfe = {
-      source  = "hashicorp/tfe"
-      version = "0.70.0"
     }
 
     time = {
