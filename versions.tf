@@ -8,7 +8,7 @@ terraform {
 
     github = {
       source  = "integrations/github"
-      version = "6.7.3"
+      version = "6.7.4"
     }
 
     http = {
